@@ -1,0 +1,241 @@
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#shlak {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#shlak h2{
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+
+#knopki {
+  display: flex;
+  gap: 10px;
+}
+
+
+#vhod {
+  background-color: rgb(47, 71, 227);
+  color: rgb(226, 233, 248);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+#poisk{
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-size: cover;
+  background-image:url('./assets/Vector.png');
+}
+
+
+
+
+
+
+#xerta{
+  margin-top: -35px;
+  text-indent: 600px;
+}
+#xerta h1{
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+#top_bar{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#top_bar h1{
+  font-size: 45px;
+}
+#top_bar hr{
+  width: 150px;
+}
+
+#top_bar li{
+  margin-right: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+#card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#card img{
+  margin-left: 15px;
+}
+
+#fce {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vhod {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+#top_b{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: -20px;
+}
+#top_b h1{
+  font-size: 45px;
+}
+#top_b hr{
+  width: 150px;
+}
+
+#top_b li{
+  margin-right: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+#fideo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fideo_a {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#knop {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+
+}
+
+
+
+#fideo_b {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card_1 {
+  max-width: 300px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+#people_list h3{
+  color: rgb(239, 207, 49);
+  margin-right: 0px;
+  padding-right: 66px;
+  
+
+  
+}
+
+#people_list h4{
+  color: rgb(226, 224, 51);
+  margin-left: 300px;
+  
+
+}
+
+#mesto{
+  position: relative;
+  bottom: 22px;
+}
+
+
+#cnopcaa {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cnop {
+  background-color: rgb(255, 238, 0);;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 238, 0);
+  padding: 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+#vd {
+  text-align: center
+}
+#vd p{
+  color: rgb(240, 220, 67);
+  cursor: pointer;
+}
+
+#person{
+  margin-left: 10px;
+}
+
+#person img{
+  margin-left: 10px;
+}
+
+.emale{
+  background-image: url(assets/fon_emale.png);
+  background-repeat: no-repeat;
+}

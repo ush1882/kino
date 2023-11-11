@@ -1,0 +1,89 @@
+header {
+    background-color: #292929;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #shlak_2 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  #shlak_2 h2{
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  #knopki_2 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  #vhod_2 {
+    background-color: rgb(47, 71, 227);
+    color: rgb(226, 233, 248);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  #poisk_2{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-size: cover;
+    background-image:url('./assets/Vector.png');
+  }
+
+
+
+  .rating-result {
+    width: 265px;
+    margin: 0 auto;
+  }
+  .rating-result span {
+    padding: 0;
+    font-size: 32px;
+    margin: 0 3px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+  }
+  .rating-result > span:before {
+    content: '★';
+  }
+  .rating-result > span.active {
+    color: gold;
+    text-shadow: 1px 1px #c60;
+  }
+
+  #top_bar {
+    display: flex;
+    flex-flow:column;
+    margin-bottom: auto;
+  }
+
+  #oi{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+ h1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  hyphens: auto;
+ }
+p{
+ text-align: center;
+}
+.tre{
+  margin-top: 10%;
+  margin-left: 30%;
+}
